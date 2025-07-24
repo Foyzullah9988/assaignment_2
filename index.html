@@ -8,8 +8,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <script src="https://kit.fontawesome.com/e30fe5ba1d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="tailwind.css">
 </head>
 
@@ -17,7 +18,9 @@
     <!-- \............................header section...................... -->
     <header class="">
         <nav class="flex justify-between items-center gap-1.5 w-[1140px] mt-8 mx-auto">
-            <h2>faugei</h2>
+            <figure>
+                <img src="./B12A02-Responsive-Flowers-main/assets/logo.png" alt="">
+            </figure>
             <ul class="flex justify-center items-center gap-12 py-[18px]">
                 <li><a class="text-[#252432] font-bold text-[16px]" href="">Home</a></li>
                 <li><a class="text-[#8987A1] font-normal text-[16px]" href="">Shop</a></li>
@@ -35,7 +38,7 @@
         <!-- .......................ALWAYS FRESH FLOWERS............. -->
         <section class="flex justify-center items-center w-[1140px] mx-auto mt-[120px]">
             <div>
-                <h2 class="font-serif text-[#000000]  ">
+                <h2 class="font-serif font-bold text-[65px] text-[#000000]  ">
                     ALWAYS <span class="text-[#E95A08] "> FRESH FLOWERS</span>
                 </h2>
                 <p class="text-[rgba(0,0,0,0.5)] font-normal text-[22px]">
@@ -139,15 +142,18 @@
         </section>
         <!-- .......................Flower & Plants Lover............ -->
         <section class="flex justify-center items-center gap-[60px] w-[1140px] mt-[210px] mx-auto">
-            <img class="w-[540px] h-[597px]" src="./B12A02-Responsive-Flowers-main/assets/flower-store.png" alt="">
+            <div class="relative">
+                <img class="w-[540px] h-[597px]" src="./B12A02-Responsive-Flowers-main/assets/flower-store.png" alt="">
+            <img class="mw-[286px] h-[286px] absolute top-[-127px] left-[93px]" src="./B12A02-Responsive-Flowers-main/assets/trusted-badge.png" alt="">
+            </div>
             <div class="space-y-5">
                 <h2 class="font-serif font-bold text-[50px] text-[rgb(0,0,0)]text-left">
                     Flower & Plants Lover
                 </h2>
-                <ul class="font-normal space-y-5 text-[22px] text-[rgba(0,0,0,0.5)] list-disc list-inside ">
-                    <li class="">Indulge your senses with the beauty and fragrance <span class="ml-9"> of our fresh
-                            flower shop. From classic roses to <span class="ml-9"></span>exotic blooms, we offer a wide
-                            variety of fresh.</span></span></li>
+                <ul class="font-normal space-y-5 text-[22px] pl-2 text-[rgba(0,0,0,0.5)] list-disc  ">
+                    <li class="">Indulge your senses with the beauty and fragrance of our fresh
+                        flower shop. From classic roses to exotic blooms, we offer a wide
+                        variety of fresh.</li>
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
                         to exotic blooms, we offer a wide variety of fresh.</li>
                     <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses
@@ -171,7 +177,8 @@
                     <div class=" relative ">
                         <img class="rounded-[14px]" src="./B12A02-Responsive-Flowers-main/assets/deal-bloom.png"
                             alt="flower garden">
-                        <div class="text-center absolute inset-0 flex justify-center items-center bg-[rgba(0,0,0,0.4)] rounded-[14px]">
+                        <div
+                            class="text-center absolute inset-0 flex justify-center items-center bg-[rgba(0,0,0,0.4)] rounded-[14px]">
                             <div>
                                 <h2 class="font-serif text-[20px] font-bold text-[rgb(255,255,255)]">
                                     60% Off | Bloom Plant
@@ -183,14 +190,15 @@
                         </div>
                     </div>
                     <div class=" relative ">
-                        <img class="rounded-[14px]" src="./B12A02-Responsive-Flowers-main/assets/deal-ana.png"
-                            alt="flower garden">
-                        <div class="text-center absolute inset-0 flex justify-center items-center bg-[rgba(0,0,0,0.4)] rounded-[14px]">
-                            <div>
-                                <h2 class="font-serif text-[20px] font-bold text-[rgb(255,255,255)]">
-                                   30% Off | Ana  Plant
-                                </h2>
-                                <a class="underline font-semibold text-[16px] text-[rgb(255,255,255)]"" href="">
+                        <img class=" rounded-[14px]" src="./B12A02-Responsive-Flowers-main/assets/deal-ana.png"
+                                    alt="flower garden">
+                                    <div
+                                        class="text-center absolute inset-0 flex justify-center items-center bg-[rgba(0,0,0,0.4)] rounded-[14px]">
+                                        <div>
+                                            <h2 class="font-serif text-[20px] font-bold text-[rgb(255,255,255)]">
+                                                30% Off | Ana Plant
+                                            </h2>
+                                            <a class="underline font-semibold text-[16px] text-[rgb(255,255,255)]"" href="">
                                 Shop Now
                             </a>
                             </div>
@@ -199,24 +207,83 @@
                     
                     
                 </div>
-                    <div class=" relative ">
-                        <img class="rounded-[22px]" src="./B12A02-Responsive-Flowers-main/assets/deal-zabo.png"
-                            alt="flower garden">
-                        <div class="text-center absolute inset-0 flex justify-center items-center bg-[rgba(0,0,0,0.4)] rounded-[22px]">
-                            <div>
-                                <h2 class="font-serif text-[40px] font-bold text-[rgb(255,255,255)]">
-                                   25% Off | Zabo Plant
-                                </h2>
-                                <a class="underline font-semibold text-[28px] text-[rgb(255,255,255)]"" href="">
+                <div class=" relative ">
+                    <img class=" rounded-[22px]" src="./B12A02-Responsive-Flowers-main/assets/deal-zabo.png" alt="flower garden">
+                    <div class="text-center absolute inset-0 flex justify-center items-center bg-[rgba(0,0,0,0.4)] rounded-[22px]">
+                        <div>
+                            <h2 class="font-serif text-[40px] font-bold text-[rgb(255,255,255)]">
+                                25% Off | Zabo Plant
+                            </h2>
+                            <a class="underline font-semibold text-[28px] text-[rgb(255,255,255)]"" href="">
                                 Shop Now
                             </a>
-                            </div>
                         </div>
                     </div>
-                    
                 </div>
+            </div>
+        </section>
+        <section class=" w-[1440px] h-[533px] mt-[120px] mx-auto text-center flex flex-col justify-center items-center bg-[url('./B12A02-Responsive-Flowers-main/assets/news-letter-bg.png')]">
+            <div>
+                <h2
+                    class="font-serif  h-[64px] font-bold text-[50px] text-[rgb(255,255,255)] ">
+                    Join the colorful Bunch</h2>
+                <form
+                    class="w-[830px] flex justify-center items-center mt-6">
+                    <input
+                        class="pl-2 w-[644px] h-[50px] font-bold  bg-[#FFFFFF] text-base  placeholder:font-normal "
+                        type="text" placeholder="Write email">
+                    <button
+                        class=" w-[186px] h-[50px] bg-[#E95A08] text-[rgb(255,255,255)] font-semibold text-[16px]"
+                        type="button">Subscribe</button>
+                </form>
+            </div>
         </section>
     </main>
+    <!-- ..............................footer section..................... -->
+    <footer>
+        <section class="flex justify-center items-center w-[1120px] mx-auto my-12 gap-28 max-h-[248px]">
+            <section class=" ">
+                <figure>
+                    <img src="./B12A02-Responsive-Flowers-main/assets/logo.png" alt="">
+                </figure>
+                <p class="font-normal text-[22px] text-[rgba(0,0,0,0.5)] w-[359px] pb-[60px]">Indulge your senses with
+                    the beauty and
+                    fragrance of our fresh flower shop. </p>
+            </section>
+            <section>
+                <nav>
+                    <ul class="flex  justify-center items-center gap-x-28">
+                        <div class="grid justify-center items-center gap-y-6 w-[85px]">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </div>
+                        <div class="grid justify-center items-center gap-y-6 w-[128px]">
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms of Service</a></li>
+                            <li><a href="">Help Center</a></li>
+                        </div>
+
+
+
+
+                    </ul>
+                </nav>
+            </section>
+            <section class="relative h-[200px] ">
+                <figure class="flex justify-center items-center gap-x-4 absolute top-0 left-0">
+                    <img src="./B12A02-Responsive-Flowers-main/assets/icon-linkedin.png" alt="">
+                    <img src="./B12A02-Responsive-Flowers-main/assets/icon-twitter.png" alt="">
+                    <img src="./B12A02-Responsive-Flowers-main/assets/icon-facebook.png" alt="">
+                    <img src="./B12A02-Responsive-Flowers-main/assets/icon-youtube.png" alt="">
+                </figure>
+            </section>
+        </section>
+    </footer>
 </body>
 
 </html>
